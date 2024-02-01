@@ -9,10 +9,10 @@
 </head>
 
 <body class="body">
-    <audio controls autoplay>
+    <!-- <audio controls autoplay>
         <source src="music/1.mp3" type="audio/mp3">
         Tu navegador no soporta el elemento de audio.
-    </audio>
+    </audio> -->
     <h1 class="body__title">♥ Kierrez Zer My Mobia ♥</h1>
     <img src="https://pbs.twimg.com/media/FQRbN3nXMAUPrQ6.jpg" alt="Foto D My" class="body__img" />
     <br />
@@ -20,6 +20,7 @@
     <button id="no" class="sbtn">Nel PerrO😭</button>
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="howler.js/dist/howler.js"></script>
     <script src="js/index.js"></script>
 </body>
 

@@ -23,13 +23,9 @@ const ebitarKCRompaMyBobo = () => {
 vuttonSi.addEventListener("click", zomosNobios);
 vuttonNo.addEventListener("mouseover", ebitarKCRompaMyBobo);
 
-Howler.autoUnlock = false;
-// Crear una nueva instancia de Howl
+
 var sound = new Howl({
 	src: ["music/1.mp3"],
-	html5: true,
-	autoplay: true,
-	loop: true,
 	onplayerror: function () {
 		sound.once("unlock", function () {
 			sound.play();
@@ -37,7 +33,4 @@ var sound = new Howl({
 	},
 });
 
-// Clear listener after first call.
-sound.once("load", function () {
-	sound.play();
-});
+sound.play();

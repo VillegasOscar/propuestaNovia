@@ -10,7 +10,7 @@ const vuttonSi = document.getElementById("yes");
 					timer: 4000,
 				});
 				setTimeout(() => {
-					location.href = "https://youtu.be/am1_JLFDFMw?t=19";
+					location.href = "https://www.youtube.com/watch?v=uP-85Eaxd00";
 				}, 5000); // 5000 milisegundos = 5 segundos
 			};
 

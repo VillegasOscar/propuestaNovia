@@ -22,15 +22,3 @@ const ebitarKCRompaMyBobo = () => {
 
 vuttonSi.addEventListener("click", zomosNobios);
 vuttonNo.addEventListener("mouseover", ebitarKCRompaMyBobo);
-
-
-var sound = new Howl({
-	src: ["music/1.mp3"],
-	onplayerror: function () {
-		sound.once("unlock", function () {
-			sound.play();
-		});
-	},
-});
-
-sound.play();

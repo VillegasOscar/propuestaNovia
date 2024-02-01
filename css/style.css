@@ -1,0 +1,45 @@
+.body {
+    background-color: rgb(220, 200, 20);
+    text-align: center;
+    font-size: 1.5em; /* Aumentar el tamaño de la fuente */
+}
+
+.body__title {
+    color: white;
+}
+
+.body__img {
+    width: 100%;
+    max-width: 100%; /* Ajustar el tamaño de la imagen para que ocupe todo el ancho de la pantalla */
+    border-radius: 50%;
+}
+
+button {
+    margin-top: 1em; /* Centrar los botones debajo de la imagen */
+}
+
+.sbtn {
+    background-color: #4caf50; /* Green background color */
+    border: none; /* No borders */
+    color: white; /* White text color */
+    padding: 15px 32px; /* Padding around the text */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* No text decoration */
+    display: inline-block; /* Make the button an inline block element */
+    font-size: 16px; /* Set the font size */
+    margin: 4px 2px; /* Set the margin around the button */
+    cursor: pointer; /* Make the button look clickable */
+    border-radius: 12px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Add a transition effect when hovering */
+}
+
+.sbtn:hover {
+    background-color: #3e8e41; /* Change the background color when hovering */
+}
+
+@media (max-width: 600px) {
+    .sbtn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}

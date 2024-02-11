@@ -2,6 +2,9 @@
 var canvas = document.getElementById("gameCanvas");
 var ctx = canvas.getContext("2d");
 
+var jugadorImg = new Image();
+jugadorImg.src = "image/yo.jpg"; // Ruta de la imagen del jugador
+
 // Crear una nueva imagen para el corazón
 var heartImg = new Image();
 heartImg.onload = function() {
@@ -23,7 +26,7 @@ bolaImg.onload = function() {
 
     setInterval(generarBolasAleatorias, 2000); // Generar una bola cada 2 segundos
 };
-bolaImg.src = "image/bola.jpeg"; // Ruta de la imagen de la bola
+bolaImg.src = "image/ella.jpg"; // Ruta de la imagen de la bola
 
 // Definir la posición inicial del corazón
 var heartX;
@@ -59,8 +62,7 @@ var jugador = {
 
 // Dibujar al jugador
 function dibujarJugador() {
-    ctx.fillStyle = "red";
-    ctx.fillRect(jugador.x, jugador.y, jugador.ancho, jugador.alto);
+    ctx.drawImage(jugadorImg, jugador.x, jugador.y, jugador.ancho, jugador.alto);
 }
 
 // Función para actualizar la posición del jugador

@@ -9,9 +9,9 @@
 </head>
 
 <body class="body">
-	
+<div id="cuentaRegresiva"></div>
     <div id="container">
-    <div id="cuentaRegresiva"></div>
+    
         <canvas id="gameCanvas"></canvas>
     </div>
     <div id="container2">

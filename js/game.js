@@ -29,6 +29,15 @@ bolaImg.src = "image/bola.jpeg"; // Ruta de la imagen de la bola
 var heartX;
 var heartY;
 
+// Hacer que el canvas sea responsivo
+function resizeCanvas() {
+    canvas.width = window.innerWidth * 0.8;
+    canvas.height = window.innerHeight * 0.8;
+}
+
+// Llamar a la función de redimensionamiento inicialmente
+resizeCanvas();
+
 // Variable para contar los puntos
 var puntos = 0;
 
@@ -156,3 +165,5 @@ function gameLoop() {
     requestAnimationFrame(gameLoop); // Repetir el bucle
 }
 
+// Actualizar el tamaño del canvas cuando la ventana cambie de tamaño
+window.addEventListener('resize', resizeCanvas);

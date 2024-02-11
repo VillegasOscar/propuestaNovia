@@ -9,8 +9,9 @@
 </head>
 
 <body class="body">
-	<div id="cuentaRegresiva"></div>
+	
     <div id="container">
+    <div id="cuentaRegresiva"></div>
         <canvas id="gameCanvas"></canvas>
     </div>
     <div id="container2">
@@ -29,7 +30,7 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="js/index.js"></script>
     <script src="js/game.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>

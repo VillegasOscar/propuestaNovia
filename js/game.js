@@ -3,7 +3,7 @@ var canvas = document.getElementById("gameCanvas");
 var ctx = canvas.getContext("2d");
 
 var jugadorImg = new Image();
-jugadorImg.src = "image/yo.jpg"; // Ruta de la imagen del jugador
+jugadorImg.src = "image/ella.jpg"; // Ruta de la imagen del jugador
 
 // Crear una nueva imagen para el corazón
 var heartImg = new Image();
@@ -26,7 +26,7 @@ bolaImg.onload = function() {
 
     setInterval(generarBolasAleatorias, 2000); // Generar una bola cada 2 segundos
 };
-bolaImg.src = "image/ella.jpg"; // Ruta de la imagen de la bola
+bolaImg.src = "image/yo.jpg"; // Ruta de la imagen de la bola
 
 // Definir la posición inicial del corazón
 var heartX;

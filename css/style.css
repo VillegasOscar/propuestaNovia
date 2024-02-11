@@ -43,3 +43,7 @@ button {
         font-size: 14px;
     }
 }
+
+#container2 {
+    display: none;
+}

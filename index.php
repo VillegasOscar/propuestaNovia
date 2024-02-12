@@ -9,11 +9,11 @@
 </head>
 
 <body class="body">
-<div id="cuentaRegresiva"></div>
+<!-- <div id="cuentaRegresiva"></div>
     <div id="container">
     
         <canvas id="gameCanvas"></canvas>
-    </div>
+    </div> -->
     <div id="container2">
         <audio id="audioFondo" controls autoplay>
             <source src="music/1.mp3" type="audio/mp3" />
